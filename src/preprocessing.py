@@ -18,7 +18,6 @@ Design decisions (defensible in viva):
 
 import re
 import string
-from typing import Optional
 
 import nltk
 from nltk.corpus import stopwords
