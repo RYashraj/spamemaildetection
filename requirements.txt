@@ -1,0 +1,28 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# requirements.txt
+# Spam Email Detection — Phase 1 dependencies
+# Member 2 (Config Lead): pinned versions for reproducibility
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core data science
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Machine learning
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# NLP utilities
+nltk>=3.8.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0
+wordcloud>=1.9.0
+
+# Notebook environment
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ─── Optional (uncomment for Phase 5 deployment) ─────────────────────────────
+# streamlit>=1.28.0

@@ -1,0 +1,39 @@
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ─── Virtual environments ─────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+
+# ─── Jupyter ──────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ─── Model artifacts (committed separately or via DVC) ────────────────────────
+*.pkl
+*.joblib
+models/*.pkl
+models/*.joblib
+
+# ─── Secrets / environment ────────────────────────────────────────────────────
+.env
+.env.*
+
+# ─── Raw dataset (too large for GitHub; see data/README.md for download steps) ─
+data/raw/*.csv
+
+# ─── OS / editor ─────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ─── Reports / output artifacts ───────────────────────────────────────────────
+reports/*.html
+reports/*.png
