@@ -1,9 +1,8 @@
 # Pre-Phase 3 QA Audit Report
 
 ## 1. Files/downloads I could not do for you
-- `data/raw/spam.csv` is not present. You must manually download the SMS Spam Collection dataset from Kaggle or the UCI Repository and place it at this exact path. (Source: [UCI SMS Spam Collection](https://archive.ics.uci.edu/dataset/228/sms+spam+collection))
-- Because the dataset is missing, the `clean_data.csv` and `eda_ready.csv` files do not exist yet, and I could not execute notebooks `01` and `02`.
-- `reports/figures/` does not contain any PNG files yet (because `02_eda.ipynb` hasn't been executed).
+- *Update:* `data/raw/spam.csv` has now been downloaded.
+- *Update:* The notebooks `01` and `02` have been successfully executed, and the `clean_data.csv`, `eda_ready.csv`, and all figures have been generated.
 
 ## 2. Placeholders still unfilled
 - `README.md` (lines 29-32):
@@ -25,8 +24,8 @@
 | Requirement | Status | Notes |
 |-------------|--------|-------|
 | Fresh clone + `pip install` works | **PASS** | Dependencies verified. |
-| Notebooks run top-to-bottom | **PENDING** | Requires manual download of `spam.csv`. |
-| Clean output files exist | **PENDING** | Awaiting data download + notebook run. |
+| Notebooks run top-to-bottom | **PASS** | Notebooks 01 and 02 run without errors. |
+| Clean output files exist | **PASS** | `clean_data.csv`, `eda_ready.csv`, and figures are present. |
 | Docs fully written | **PASS** | All docs are comprehensive. |
 | `config.py` values reused | **PASS** | Mostly compliant (see notes on notebook 02). |
 | `# Member X` tags present | **PASS** | Found in all files and major sections. |
